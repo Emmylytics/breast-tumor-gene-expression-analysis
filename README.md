@@ -12,5 +12,4 @@ This project analyzes gene expression profiles in breast tumor and normal tissue
 ---
 
 #### 📊 Datasets
-- [GSE45827 - Breast Cancer Gene Expression](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45827)  
-- [GSE65194 - Breast Tumor vs Normal Tissue](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65194)
+- [Mendeley Data – Breast Tumor Gene Expression Dataset](https://data.mendeley.com/datasets/v3cc2p38hb/1)
