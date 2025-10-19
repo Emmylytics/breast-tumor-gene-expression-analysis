@@ -11,5 +11,5 @@ This project analyzes gene expression profiles in breast tumor and normal tissue
 
 ---
 
-#### 📊 Datasets
+#### Datasets
 - [Mendeley Data – Breast Tumor Gene Expression Dataset](https://data.mendeley.com/datasets/v3cc2p38hb/1)
