@@ -21,11 +21,25 @@ The analysis focuses on statistical comparison, correlation analysis, and visual
 
 ## 📁 Dataset Overview  
 
-- Dataset: GSE25066 Gene Expression Dataset  
-- Source: Mendeley Data / Public gene expression repository  
+- **Dataset:** GSE25066 Breast Cancer Gene Expression Dataset  
+- **Source:** Mendeley Data / Public gene expression repository  
+- **Reference:** [Mendeley Data – Gene Expression Profiles of Breast Cancer](https://data.mendeley.com/datasets/v3cc2p38hb/1)  
 
-This dataset contains gene expression measurements from breast tumor and normal tissue samples. Each sample includes expression values for thousands of genes, enabling comparative analysis between the two conditions.
+---
 
+## 📊 Dataset Structure  
+
+This dataset consists of gene expression measurements from breast tumor and normal tissue samples.
+
+- Each **row** represents a gene (geneID)  
+- Each **column** represents a patient sample (tumor or normal)  
+- Each **cell value** represents the expression level of a gene in a specific sample  
+
+After preprocessing, the tumor and normal datasets were merged into a single expression matrix for comparative analysis:
+
+```python
+df = pd.concat([tumor, normal], axis=1)
+```
 ---
 
 ## 🛠️ Tools Used  
