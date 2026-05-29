@@ -171,6 +171,21 @@ Although tumor and normal samples showed strong overall similarity, several gene
   
 ---
 
+## 📂 Repository Structure
+
+```bash
+breast-cancer-gene-expression-analysis/
+├── notebook/
+│   └── gene_expression_analysis.ipynb
+├── images/
+│   ├── volcano_plot.png
+│   ├── expression_heatmap.png
+│   └── pca_plot.png
+└── README.md
+```
+
+---
+
 ## 🚀 Key Takeaway  
 
 This project demonstrates how statistical analysis and visualization techniques can be applied to gene expression data to identify biologically meaningful differences between tumor and normal tissue samples.
