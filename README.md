@@ -174,7 +174,7 @@ Although tumor and normal samples showed strong overall similarity, several gene
 ## 📂 Repository Structure
 
 ```bash
-breast-cancer-gene-expression-analysis/
+breast-cancer-expression-analysis/
 ├── notebook/
 │   └── gene_expression_analysis.ipynb
 ├── images/
